@@ -107,6 +107,7 @@ export default {
         });
 
         this.success = 'User created successfully';
+        this.error = null;
         this.notifClass = 'is-success';
 
       } catch (e) {
